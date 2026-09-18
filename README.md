@@ -26,15 +26,12 @@ Create the database and tables:
 ```
 mysql -u root -p < sql/schema.sql
 ```
+### Demo Accounts
 
-Seed it with the same demo data the old version shipped with:
-```
-npm run seed
-```
-This creates three demo accounts with real bcrypt-hashed passwords:
-- `admin@scheduler.com` / `Admin123!`
-- `manager@scheduler.com` / `Manager123!`
-- `staff@scheduler.com` / `Staff123!`
+The application includes seeded demo accounts for testing.
+
+> Demo credentials are intentionally not published in this repository.
+> They can be provided separately for demonstrations.
 
 Start the API:
 ```
